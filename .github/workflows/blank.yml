@@ -32,7 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          uses: mr-smithers-excellent/docker-build-push@v5
+          uses: aristidejou/docker-build-push@v5
           with:
              image: ovdi/image-name
              registry: docker.io
